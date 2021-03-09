@@ -1,11 +1,14 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-
-
+import register from '@/views/register.vue'
 Vue.use(VueRouter)
 
 const routes = [
-  
+  {
+    path: '/register',
+    name: 'Register',
+    component: register
+  }
 ]
 
 const router = new VueRouter({
